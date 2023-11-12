@@ -1,0 +1,10 @@
+[Unit]
+Description=Razer Analog mouse
+
+[Service]
+Type=simple
+ExecStart=/usr/local/venv/razer-analog-3.11/bin/razer-analog-mouse /%I
+StandardOutput=journal
+StandardError=journal
+
+[Install]

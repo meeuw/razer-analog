@@ -1,0 +1,2 @@
+SUBSYSTEM=="input", ATTRS{name}=="razer-analog-keyboard-*", KERNEL=="event*" TAG+="systemd", ENV{SYSTEMD_WANTS}="razer-analog-mouse@"
+SUBSYSTEM=="usb", ATTRS{idProduct}=="0282", ATTRS{idVendor}=="1532", ENV{DEVTYPE}=="usb_device" TAG+="systemd", ENV{SYSTEMD_WANTS}="razer-analog@"

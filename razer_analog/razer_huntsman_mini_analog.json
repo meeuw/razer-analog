@@ -1,0 +1,19 @@
+{
+    "plain": {
+        "110": "ESC", "2": "1", "3": "2", "4": "3", "5": "4", "6": "5", "7": "6", "8": "7", "9": "8", "10": "9", "11": "0", "12": "MINUS", "13": "EQUAL", "15": "BACKSPACE",
+        "16": "TAB", "17": "Q", "18": "W", "19": "E", "20": "R", "21": "T", "22": "Y", "23": "U", "24": "I", "25": "O", "26": "P", "27": "LEFTBRACE", "28": "RIGHTBRACE", "29": "BACKSLASH",
+        "30": "CAPSLOCK", "31": "A", "32": "S", "33": "D", "34": "F", "35": "G", "36": "H", "37": "J", "38": "K", "39": "L", "40": "SEMICOLON", "41": "APOSTROPHE", "43": "ENTER",
+        "44": "LEFTSHIFT", "46": "Z", "47": "X", "48": "C", "49": "V", "50": "B", "51": "N", "52": "M", "53": "COMMA", "54": "DOT", "55": "SLASH", "57": "RIGHTSHIFT",
+        "58": "LEFTCTRL", "127": "LEFTMETA", "60": "LEFTALT", "61": "SPACE", "62": "RIGHTALT", "59": "FN", "129": "COMPOSE", "64": "RIGHTCTRL"
+    },
+    "fn": {
+        "110": "GRAVE", "2": "F1", "3": "F2", "4": "F3", "5": "F4", "6": "F5", "7": "F6", "8": "F7", "9": "F8", "10": "F9", "11": "F10", "12": "F11", "13": "F12", "15": "DELETE",
+        "16": "MUTE", "17": "VOLUMEDOWN", "18": "VOLUMEUP", "19": "REWIND", "20": "PLAYPAUSE", "21": "FASTFORWARD", "24": "UP", "25": "SCROLLLOCK", "26": "SYSRQ", "27": "PAGEUP", "28": "HOME",
+        "30": "CAPSLOCK", "35": "KBDILLUMDOWN", "36": "KBDILLUMUP","37": "LEFT", "38": "DOWN", "39": "RIGHT", "40": "PAGEDOWN", "41": "END", "43": "KEYBOARD",
+        "44": "LEFTSHIFT", "53": "SLEEP", "54": "PAUSE", "55": "INSERT", "57": "RIGHTSHIFT",
+        "58": "LEFTCTRL", "127": "FN", "60": "LEFTALT", "62": "RIGHTALT", "59": "FN", "64": "RIGHTCTRL"
+    },
+    "fn_fn": {
+        "127": "LEFTMETA", "59": "FN"
+    }
+}

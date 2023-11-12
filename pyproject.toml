@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "razer-analog"
+version = "0.1.0"
+description = ""
+authors = ["Dick Marinus"]
+license = "GPL-2"
+#readme = "README.md"
+#packages = [{include = "razer_analog"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ioctl-opt = "^1.2.2"
+evdev = "^1.6.0"
+pyudev = "^0.24.0"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.10"
+mypy = "^0.991"
+coverage = "^7.0.5"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+razer-analog = 'razer_analog.driver:main'
+razer-analog-mouse = 'razer_analog.mouse:main'
+razerctl = 'razer_analog.razerctl:main'
+hidrawtests = 'razer_analog.hidrawtests:main'

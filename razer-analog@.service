@@ -1,0 +1,11 @@
+[Unit]
+Description=Razer Analog driver
+
+[Service]
+Type=simple
+ExecStart=/usr/local/venv/razer-analog-3.11/bin/razer-analog /%I
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
