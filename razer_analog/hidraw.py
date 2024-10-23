@@ -12,6 +12,7 @@ BUS_VIRTUAL = 0x06
 # hid.h
 _HID_MAX_DESCRIPTOR_SIZE = 4096
 
+
 # hidraw.h
 class _hidraw_report_descriptor(ctypes.Structure):
     _fields_ = [

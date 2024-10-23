@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "razer-analog"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Dick Marinus"]
-license = "GPL-2"
+license = "GPL-3.0"
 #readme = "README.md"
 #packages = [{include = "razer_analog"}]
 
