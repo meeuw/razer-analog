@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "razer-analog"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Dick Marinus"]
 license = "GPL-3.0"
@@ -12,6 +12,7 @@ python = "^3.10"
 ioctl-opt = "^1.2.2"
 evdev = "^1.6.0"
 pyudev = "^0.24.0"
+setuptools = "^75.2.0"
 
 [tool.poetry.group.dev.dependencies]
 pylint = "^2.15.10"
