@@ -3,7 +3,7 @@ Layout for keyboard
 """
 import typing
 import json
-import pkg_resources  # type: ignore
+import importlib.resources  # type: ignore
 import evdev  # type: ignore
 
 absinfo = evdev.device.AbsInfo(value=0, min=0, max=255, fuzz=0, flat=0, resolution=1)
@@ -21,12 +21,9 @@ def load_layout() -> typing.Dict[str, typing.Dict[int, int]]:
     """
     Load layout from json file
     """
-    with open(
-        pkg_resources.resource_filename(
-            "razer_analog", "razer_huntsman_mini_analog.json"
-        ),
-        encoding="utf-8",
-    ) as razer_huntsman_mini_analog_file:
+    with importlib.resources.files("razer_analog").joinpath(
+        "razer_huntsman_mini_analog.json"
+    ).open(encoding="utf-8") as razer_huntsman_mini_analog_file:
         result: typing.Dict[str, typing.Dict[int, int]] = {
             "plain": {},
             "fn": {},
